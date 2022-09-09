@@ -1,0 +1,53 @@
+body {background-color:#1b995c;
+padding-left: 50px ;
+font-family: "Kalam", sans-serif
+}
+
+#fondoencabezado {
+    background-image: url(imagenes/Fondoesc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+    height: 70vh;
+    width: 100%;}
+    #foto {
+        border-radius: 50%;
+        width: 40%;
+        height: 80%;
+        position: relative;
+        right:  50px;
+        top: -60px;
+        z-index: 3;
+    }
+
+    h2,h6 {color: rgb(11, 133, 133);}
+
+    p span {color:rgb(11, 133, 133);
+    font-style: italic;}
+
+    li span {color:rgb(11, 133, 133);
+    font-style: italic;}
+
+     .alineado{margin-left: 15mm;}
+
+     .iconos{text-align:right;}
+
+     .nombre {font-family: "Satisfy";}
+
+     div {background-color: #e9efb1;}
+     a {
+        color: blue;
+     }
+     
+     .btn-light {
+        --bs-btn-color: #000;
+        --bs-btn-bg: #e9efb1;
+        --bs-btn-border-color: #adb5bd;
+        --bs-btn-hover-color: #000;
+        --bs-btn-hover-bg: #1b995c ;
+        --bs-btn-hover-border-color: #c6c7c8;  
+    }
+
+    .progress-bar {
+        background-color: #198754ad;
+    }

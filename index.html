@@ -1,5 +1,106 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title> Mi Portfolio</title>
-</head></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Kalam|Satisfy'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+  <body>
+    <div class="container p-3 m-2 rounded border">
+      <div class="row">
+        <div class="col">
+          <p style="font-family: sans-serif;">
+            <img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/127650/course/overviewfiles/MINIATURA-ARGEPROGR.jpg" alt="Argentina Programa" style="width: 100px; height: 60px; font-family: sans-serif;">
+          <b>Argentina Programa - #YoProgramo</b></p>
+        </div>
+        <div class="col">
+          <p style=text-align:right;>
+          <a href="https://es-la.facebook.com/"><img src="imagenes/Facebook_icon.png" alt="Facebook" width="25" height="25"></a>
+          <button type="button" class="btn btn-light btn-sm">Login</button>
+        </p>
+        </div>
+      </div>
+      <div class="row">
+       <div class="col">
+       <div id="fondoencabezado">
+      </div>
+       </div>
+      </div>
+      <div class="row"> 
+      <div class="col">
+        <h2 id="nombre"><i>Patricia M. Walpole</i></h2>
+        <h5>Programador Web Full Stack Junior</h5>
+        <h5></h5>
+        <p>Buenos Aires (Argentina)</p>
+        <P><a href="mailto:walprogram00@gmail.com">Contacto</a></P>
+        <button type="button" class="btn btn-light btn-sm">Anadir Sección</button> <button type="button" class="btn btn-light btn-sm">Más</button>
+      </div>
+      <div class="col" style="text-align:right;">
+        <img id="foto" src="imagenes/mujer.jpg" alt="Perfil">
+       <button type="button" class="btn btn-light btn-sm"><i class="bi bi-camera"></i>
+        </button>
+      </div>
+      </div>
+       </div>
+
+    <div class="container p-3 m-2 rounded border">
+      <h2><i>Experiencia</i></h2>
+      <div class="row">
+        <div class="col-10">
+            <h5> <img src="https://www.nineshopping.com/images/logo.png" alt="Nine Shopping" style="width: 45px ;height: 45px"> Casa Nine SACIF</h5>
+      <ul>
+        <li>Auxiliar Administrativa <span>(1996-2006)</span></li>
+        <P>Carga de facturas, liquidación de impuestos, atención a proveedores, trámites de gestoría.</P>
+        <li>Secretaria Ejecutiva <span>(2006-2013)</span></li>
+      </ul>
+          </div>
+          <div class="col-2 iconos"><button type="button" onclick="cambiarTexto" class="btn btn-light btn-sm"><i  class="bi bi-pencil"></i></button></div>
+      </div>
+    </div>
+
+      <div class="container p-3 m-2 rounded border">
+      <h2><i>Educación</i></h2>
+      <div class="row"><div class="col-10">
+      <h5> <img src="imagenes/Logo_Escuela.png" alt="Escuela Alemana" style="width: 50px ;height: 50px"> Escuela Alemana Moreno </h5>
+      <P class="alineado">Perito Mercantil con orientación en Computación <span>(1991-1995)</span></P>
+   </div>
+    <div class="col-2 iconos"><button type="button" onclick="cambiarTexto" class="btn btn-light btn-sm"><i  class="bi bi-pencil"></i></button></div>
+
+  </div>
+  
+  <div class="row">
+    <div class="col-10">
+  <h5><img src="https://scontent.fepa12-1.fna.fbcdn.net/v/t31.18172-8/21368676_1711276072250167_9085583041971413544_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=FnMCAq0rjBoAX_q-kFY&_nc_ht=scontent.fepa12-1.fna&oh=00_AT8k4ueY6sWBD3tzDjh7e5lZOAkaE5kBZiEMtTdIMJn5wA&oe=632A62A5" alt="" style="height: 60px ;width: 60px"> Harrow House College</h5>
+   <p class="alineado">Curso de Inglés Intensivo nivel intermedio <span>(10/4/1999 - 8/5/1999)</span></p>
+  </div>
+   <div class="col-2 iconos"><button type="button" onclick="cambiarTexto" class="btn btn-light btn-sm"><i  class="bi bi-pencil"></i></button></div>
+  </div>
+    </div>
+
+    <div class="container p-3 m-2 rounded border">
+      <h2><i>Idiomas</i></h2>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-7">
+      <h6><i>English</i></h6>
+      <div class="progress" >
+      <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+      </div>
+    </div>
+    <div  class="col-2 iconos"><button type="button" class="btn btn-light btn-sm"><i  class="bi bi-pencil"></i></button></div>
+    </div>
+    </div>
+    <div class="container p-3 m-2 rounded border"> 
+      <h2><i>Proyectos</i></h2>
+      <h6 class="alineado"><i>Portfolio Web</i></h6>
+      <p class="alineado">Descripción del Portfolio Web.<span>(1/2023)</span></p>
+      
+    </div>
+    <footer><a href="http://www.freepik.com">Designed by Freepik</a></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
